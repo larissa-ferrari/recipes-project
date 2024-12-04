@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/css/home.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Receitas deliciosas!</title>
+    </head>
+    <body>
+        <header class="navbar">
+            <h1 id="header">Receitas Incríveis</h1>
+        </header>
+        <main class="container">
+            <section class="hero">
+                <img
+                    src="/images/chef.svg"
+                    alt="um chapéu de cozinheiro"
+                    class="hero-image"
+                />
+                <h3 id="imagelabel">Uma coletânea de receitas do chefe</h3>
+            </section>
+            <section class="recipes">
+                <ul>
+                    <% receitas.forEach(receita => { %>
+                    <li>
+                        <a
+                            href="/receitas/<%= receita.slug %>"
+                            class="recipe-link"
+                        >
+                            <%= receita.nome %>
+                        </a>
+                    </li>
+                    <% }) %>
+                </ul>
+            </section>
+            <a href="#header" class="back-to-top">Retornar ao topo</a>
+        </main>
+        <footer class="footer">
+            <p>© 2024 Receitas Incríveis. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>

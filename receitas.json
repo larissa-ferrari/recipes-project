@@ -1,0 +1,75 @@
+[
+    {
+        "_id": {
+            "$oid": "6750977cacd34779dfe4711d"
+        },
+        "ingredientes": [
+            "1 caixa de leite condensado",
+            "7 colheres (de sopa) de achocolatado ou 4 colheres (de sopa) de chocolate em pó",
+            "1 colher (de sopa) de margarina sem sal",
+            "Chocolate granulado (a gosto)"
+        ],
+        "descricao": "Uma receita rápida e simples, uma sobremesa deliciosa",
+        "media_avaliacoes": 0,
+        "modo_de_preparo": [
+            "Em uma panela, acrescente o leite condensado, a margarina e o chocolate em pó.",
+            "Cozinhe em fogo médio e mexa até que o brigadeiro comece a desgrudar da panela.",
+            "Deixe esfriar e faça pequenas bolas com a mão (untada) passando a massa no chocolate granulado."
+        ],
+        "nome": "Brigadeiro",
+        "subtitulo": "Um dos maiores doces do Brasil",
+        "tempo_de_preparo": 25,
+        "total_avaliacoes": 0
+    },
+    {
+        "_id": {
+            "$oid": "67509830acd34779dfe4711f"
+        },
+        "ingredientes": [
+            "500g de arroz japonês",
+            "600ml de água",
+            "80ml de vinagre de arroz",
+            "2 colheres (de sopa) de açúcar",
+            "1 colher (de chá) de sal",
+            "300g de salmão fresco (para sushi)",
+            "Alga nori (opcional)",
+            "Molho shoyu (para acompanhar)"
+        ],
+        "descricao": "Uma receita tradicional japonesa que traz sabor e elegância à mesa.",
+        "media_avaliacoes": 0,
+        "modo_de_preparo": [
+            "Lave bem o arroz japonês até a água sair transparente.",
+            "Cozinhe o arroz com 600ml de água em fogo médio até a água ser completamente absorvida.",
+            "Misture o vinagre de arroz, açúcar e sal. Acrescente ao arroz cozido e deixe esfriar.",
+            "Corte o salmão fresco em fatias finas.",
+            "Molde o arroz em pequenas porções ovais e coloque uma fatia de salmão por cima.",
+            "Sirva com shoyu à parte."
+        ],
+        "nome": "Sushi de Salmão",
+        "subtitulo": "Um prato japonês elegante e delicioso",
+        "tempo_de_preparo": 50,
+        "total_avaliacoes": 0
+    },
+    {
+        "_id": {
+            "$oid": "67509840acd34779dfe47120"
+        },
+        "ingredientes": [
+            "1 lata de leite condensado",
+            "1 lata de creme de leite",
+            "1/2 xícara de suco de limão (natural)",
+            "Raspas de limão (para decorar)"
+        ],
+        "descricao": "Uma sobremesa refrescante e fácil de fazer.",
+        "media_avaliacoes": 0,
+        "modo_de_preparo": [
+            "No liquidificador, bata o leite condensado, o creme de leite e o suco de limão até obter uma mistura homogênea.",
+            "Distribua a mistura em taças individuais ou em uma travessa.",
+            "Decore com raspas de limão e leve à geladeira por, no mínimo, 2 horas antes de servir."
+        ],
+        "nome": "Mousse de Limão",
+        "subtitulo": "Sobremesa leve e cítrica",
+        "tempo_de_preparo": 10,
+        "total_avaliacoes": 0
+    }
+]

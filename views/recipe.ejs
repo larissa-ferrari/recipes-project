@@ -1,0 +1,45 @@
+<main>
+    <script src="/js/reviewrecipe.js"></script>
+    <div class="container" id="container">
+        <link rel="stylesheet" type="text/css" href="/css/recipes.css" />
+        <header>
+            <h1 id="header"><%= data.nome %></h1>
+            <h3 class="subtitle"><%= data.subtitulo %></h3>
+        </header>
+        <section class="description-section">
+            <p class="description"><%= data.descricao %></p>
+        </section>
+        <section class="ingredients-section">
+            <h4 class="ingredients">Ingredientes</h4>
+            <ul>
+                <% data.ingredientes.forEach(ingrediente => { %>
+                <li><%= ingrediente %></li>
+                <% }); %>
+            </ul>
+        </section>
+        <section id="recipe">
+            <h4 class="recipe">Modo de preparo</h4>
+            <h5 class="time">Tempo: <%= data.tempo_de_preparo %></h5>
+            <ol>
+                <% data.modo_de_preparo.forEach(etapa => { %>
+                <li><%= etapa %></li>
+                <% }); %>
+            </ol>
+        </section>
+        <section class="rating-section">
+            <h1>Dê uma nota para esta delícia!</h1>
+            <div class="rating" id="starRating">
+                <span onclick="rate(1)">&#9734;</span>
+                <span onclick="rate(2)">&#9734;</span>
+                <span onclick="rate(3)">&#9734;</span>
+                <span onclick="rate(4)">&#9734;</span>
+                <span onclick="rate(5)">&#9734;</span>
+            </div>
+        </section>
+        <footer>
+            <a href="#header" class="back-to-top">Retornar ao topo</a>
+            <p></p>
+            <a href="../" class="back-to-main">Retornar à página principal</a>
+        </footer>
+    </div>
+</main>
